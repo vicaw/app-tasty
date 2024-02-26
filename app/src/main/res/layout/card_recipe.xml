@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    android:layout_margin="@dimen/cardRecipe_margin"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/recipeCard_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cardRecipe_imageHeight"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_banana"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/cardRecipe_textLayoutPadding">
+
+            <TextView
+                android:id="@+id/recipeCard_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/recipeCard_name"
+                android:textSize="@dimen/cardRecipe_nameTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recipeCard_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recipe_author"
+                android:layout_below="@id/recipeCard_name"
+                android:textSize="@dimen/cardRecipe_authorTextSize" />
+        </RelativeLayout>
+
+        <RatingBar
+            android:id="@+id/recipeCard_ratingBarIndicator"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_marginHorizontal="@dimen/cardRecipe_textLayoutPadding"
+            android:layout_marginBottom="@dimen/cardRecipe_textLayoutPadding"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="0"
+            android:progressTint="?android:attr/colorPrimary"
+            android:stepSize="0.1"/>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

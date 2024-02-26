@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?attr/materialCardViewFilledStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/cardMyRecipes_verticalMargin"
+    android:backgroundTint="@color/orangy_gray"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    >
+
+
+    <LinearLayout
+        android:paddingStart="@dimen/cardMyRecipes_cardPadding"
+        android:paddingVertical="@dimen/cardMyRecipes_cardPadding"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/card_myRecipes_imageProgressBar"
+            style="?android:attr/progressBarStyle"
+            android:indeterminateTint="?android:attr/colorPrimary"
+            android:layout_width="@dimen/cardMyRecipes_imgHeight"
+            android:layout_height="@dimen/cardMyRecipes_imgHeight"
+            android:visibility="gone"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/card_myRecipes_recipeImage"
+            android:layout_width="@dimen/cardMyRecipes_imgWidth"
+            android:layout_height="@dimen/cardMyRecipes_imgHeight"
+            android:scaleType="centerCrop"
+            app:shapeAppearance="@style/Rounded"
+            tools:src="@tools:sample/backgrounds/scenic"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/cardMyRecipes_cardPadding"
+            android:layout_marginStart="@dimen/cardMyRecipes_cardPadding"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/card_myRecipes_recipeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/cardMyRecipes_name"
+                android:layout_marginBottom="5dp"
+                android:textSize="@dimen/cardMyRecipes_nameTextSize" />
+
+            <RatingBar
+                android:id="@+id/card_myRecipes_ratingBar"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="0"
+                android:progressTint="?android:attr/colorPrimary"
+                android:stepSize="0.5" />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_gravity="top"
+            android:id="@+id/card_myRecipes_buttonOptions"
+            android:layout_width="@dimen/cardMyRecipes_optionsMenuIconSize"
+            android:layout_height="@dimen/cardMyRecipes_optionsMenuIconSize"
+            android:src="@drawable/baseline_more_vert_24"
+            app:backgroundTint="@android:color/transparent"
+            app:tint="?android:attr/colorPrimary"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

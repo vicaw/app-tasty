@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.vicaw.receitasfinal.fragment.HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_recipe"
+            app:destination="@id/navigation_recipe" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_recipe"
+        android:name="com.vicaw.receitasfinal.fragment.RecipeFragment"
+        tools:layout="@layout/fragment_recipe" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.vicaw.receitasfinal.fragment.FavoritesFragment"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_navigation_favorites_to_navigation_recipe"
+            app:destination="@id/navigation_recipe" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_myRecipes"
+        android:name="com.vicaw.receitasfinal.fragment.MyRecipesFragment"
+        tools:layout="@layout/fragment_my_recipes" >
+        <action
+            android:id="@+id/action_navigation_myRecipes_to_navigation_newRecipe"
+            app:destination="@id/navigation_newRecipe" />
+        <action
+            android:id="@+id/action_navigation_myRecipes_to_navigation_recipe"
+            app:destination="@id/navigation_recipe" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_newRecipe"
+        android:name="com.vicaw.receitasfinal.fragment.NewRecipeFragment"
+        tools:layout="@layout/fragment_new_recipe" >
+        <action
+            android:id="@+id/action_navigation_newRecipe_to_navigation_myRecipes"
+            app:destination="@id/navigation_myRecipes" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_editRecipe"
+        android:name="com.vicaw.receitasfinal.fragment.EditRecipeFragment"
+        tools:layout="@layout/fragment_new_recipe" >
+        <action
+            android:id="@+id/action_navigation_editRecipe_to_navigation_myRecipes"
+            app:destination="@id/navigation_myRecipes" />
+    </fragment>
+</navigation>

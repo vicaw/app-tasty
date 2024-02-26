@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="screen_margin">16dp</dimen>
+    <dimen name="login_logo_form_spacing">40dp</dimen>
+    <dimen name="login_form_spacing">40dp</dimen>
+    <dimen name="login_item_spacing">20dp</dimen>
+    <dimen name="login_item_spacing_half">10dp</dimen>
+    <dimen name="login_form_to_button_spacing">30dp</dimen>
+    <dimen name="register_form_spacing">40dp</dimen>
+    <dimen name="screen_margin_double">32dp</dimen>
+    <dimen name="register_item_spacing">20dp</dimen>
+    <dimen name="newRecipe_form_item_spacing">20dp</dimen>
+    <dimen name="about_bodyTextSize">14sp</dimen>
+    <dimen name="about_footerTextSize">12sp</dimen>
+    <dimen name="cardMyRecipes_verticalMargin">8dp</dimen>
+    <dimen name="cardMyRecipes_cardPadding">10dp</dimen>
+    <dimen name="cardMyRecipes_imgHeight">70dp</dimen>
+    <dimen name="cardMyRecipes_imgWidth">100dp</dimen>
+    <dimen name="cardMyRecipes_nameTextSize">16sp</dimen>
+    <dimen name="cardMyRecipes_optionsMenuIconSize">25dp</dimen>
+    <dimen name="cardRecipe_margin">5dp</dimen>
+    <dimen name="cardRecipe_imageHeight">125dp</dimen>
+    <dimen name="cardRecipe_textLayoutPadding">10dp</dimen>
+    <dimen name="cardRecipe_nameTextSize">16sp</dimen>
+    <dimen name="cardRecipe_authorTextSize">12sp</dimen>
+    <dimen name="screenProgressBarSize">70dp</dimen>
+    <dimen name="home_searchViewMargin">16dp</dimen>
+    <dimen name="myRecipes_floatingButtonSize">60dp</dimen>
+    <dimen name="newRecipe_imageDisplayHeight">200dp</dimen>
+    <dimen name="progressBarButtonSize">50dp</dimen>
+    <dimen name="rowIngredient_textSize">14sp</dimen>
+    <dimen name="linkGap">4dp</dimen>
+    <dimen name="recipe_imageLayoutSize">250dp</dimen>
+    <dimen name="recipe_buttonSize">45dp</dimen>
+    <dimen name="recipe_nameTextSize">28sp</dimen>
+    <dimen name="recipe_infoTextSize">16sp</dimen>
+    <dimen name="recipe_titleTextSize">22sp</dimen>
+    <dimen name="recipe_textBodySize">14sp</dimen>
+</resources>

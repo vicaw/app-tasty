@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "301492870580",
+    "project_id": "pw3receitas",
+    "storage_bucket": "pw3receitas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301492870580:android:d2503de5a1c14f54d6e6e1",
+        "android_client_info": {
+          "package_name": "com.vicaw.appreceitas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301492870580-4gtisiojn36nqdq5qk615ts3ku07euhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD9QmscI4LAjAgvtoKMcr29uti3kjrgN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301492870580-4gtisiojn36nqdq5qk615ts3ku07euhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301492870580:android:54c7d6973ec8c9efd6e6e1",
+        "android_client_info": {
+          "package_name": "com.vicaw.receitasfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301492870580-4gtisiojn36nqdq5qk615ts3ku07euhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD9QmscI4LAjAgvtoKMcr29uti3kjrgN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301492870580-4gtisiojn36nqdq5qk615ts3ku07euhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

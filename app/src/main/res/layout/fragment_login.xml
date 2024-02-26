@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/screen_margin"
+    android:paddingRight="@dimen/screen_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragment.LoginFragment">
+
+    <ImageView
+        android:id="@+id/login_Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/tastylogo"
+        app:tint="?android:attr/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/screen_margin"
+        android:paddingRight="@dimen/screen_margin"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/login_layoutEmail"
+            style="?attr/textInputFilledStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_form_spacing"
+            app:boxBackgroundColor="@color/orangy_gray"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:hint="@string/login_email"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/login_layoutPassword"
+            style="?attr/textInputFilledStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/login_form_to_button_spacing"
+            app:passwordToggleEnabled="true"
+            app:boxBackgroundColor="@color/orangy_gray"
+            app:errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_inputPassword"
+                android:hint="@string/login_pwd"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/login_buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/login_item_spacing"
+            android:insetBottom="0dp"
+            android:insetTop="0dp"
+            android:text="@string/login_btn" />
+
+        <ProgressBar
+            android:id="@+id/login_progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_marginBottom="@dimen/login_item_spacing"
+            android:layout_width="@dimen/progressBarButtonSize"
+            android:layout_height="@dimen/progressBarButtonSize"
+            android:indeterminateTint="?android:attr/colorPrimary"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/login_linkSingUpLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/login_textSingUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_singUpPrefix"/>
+
+            <TextView
+                android:id="@+id/login_linkSingUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/linkGap"
+                android:textStyle="bold"
+                android:textColor="?android:attr/colorPrimary"
+                android:text="@string/login_cadastro"
+                android:selectAllOnFocus="false"
+                android:linksClickable="false"
+                android:autoLink="all"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

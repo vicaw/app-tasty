@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Tasty</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login_register">LoginRegisterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_home">Tela Principal</string>
+    <string name="menu_list">Listar Produto</string>
+    <string name="menu_cad">Cadastrar Produto </string>
+    <string name="menu_share">Compartilhar</string>
+
+    <string name="btnlogin">LOGIN</string>
+    <string name="btnCad">CADASTRAR</string>
+    <string name="txtAdicionar">Adicionar</string>
+    <string name="txtDeletar">Deletar</string>
+    <string name="txtEditar">Editar</string>
+    <string name="txtListar">Listar</string>
+    <string name="nome">Nome</string>
+    <string name="dtnasc">DtNasc</string>
+    <string name="endereco">Endereço</string>
+    <string name="descricao">Descrição</string>
+    <string name="valorUnit">Valor unitário</string>
+
+    <string name="login_titulo">LOGIN</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_pwd">Senha</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="login_cadastro"><u>CADASTRE-SE</u></string>
+    <string name="cadUser_titulo">CADASTRAR USUÁRIO</string>
+    <string name="login_cpwd">Confirme sua Senha</string>
+    <string name="cadUser_btnCad">CADASTRAR</string>
+    <string name="cadUser_btnCanc">CANCELAR</string>
+    <string name="title_activity_principal">Principal</string>
+
+    <string name="action_add">Cadastrar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_search">Pesquisar</string>
+    <string name="action_list">Listar</string>
+    <string name="action_exit">Sair</string>
+    <string name="btnEdit">EDITAR</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="action_sobre">Sobre</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="listar">Listar Objetos nessa Tela</string>
+    <string name="cadastrar">Cadastrar Objetos nessa Tela</string>
+    <string name="editar">Editar Objeto nessa Tela</string>
+    <string name="btnEditar">Editar</string>
+    <string name="btnExcluir">Deletar</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="ok">Ok</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="dtNasc">Data de nascimento</string>
+    <string name="login_name">Nome Completo</string>
+    <string name="login_singUpPrefix">Não tem uma conta?</string>
+    <string name="register_login"><u>ENTRE</u></string>
+    <string name="register_loginPrefix">Já tem uma conta?</string>
+    <string name="action_about">Sobre</string>
+    <string name="title_myRecipes">Minhas Receitas</string>
+    <string name="newRecipe_ingredients">Ingredientes</string>
+    <string name="newRecipe_steps">Modo de preparo</string>
+    <string name="newRecipe_finish">Finalizar</string>
+    <string name="newRecipe_name">Nome da receita</string>
+    <string name="newRecipe_image">Selecionar Imagem</string>
+    <string name="cardMyRecipes_name">Nome</string>
+    <string name="recipe_author">por %1$s</string>
+    <string name="recipe_name">Nome da Receita</string>
+    <string name="recipe_score">4.5</string>
+    <string name="recipe_ratingCount">(%1$s)</string>
+    <string name="title_favorites">Favoritos</string>
+    <string name="editRecipe_save">Salvar Modificações</string>
+    <string name="recipeCard_name">Nome da Receita</string>
+    <string name="recipeCard_author">por 1%$</string>
+    <string name="home_searchHint">Busque por receitas</string>
+    <string name="favorites_emptyText">Suas receitas favoritas aparecerão aqui</string>
+    <string name="myRecipes_emptyText">Você ainda não criou nenhuma receita</string>
+    <string name="about_info">Tasty é um aplicativo de compartilhamento de receitas, desenvolvido como projeto final da disciplina de Programação para Web III do curso de Sistemas para Internet.</string>
+    <string name="about_author">Desenvolvido por Victor Wainstein</string>
+    <string name="rowIngredient_ingredient">Ingrediente</string>
+    <string name="recipe_ingredients">Ingredientes</string>
+    <string name="recipe_steps">Modo de Preparo</string>
+    <string name="recipe_rate">Avalie essa Receita</string>
+
+
+    <string-array name="DaysOfWeek">
+        <item name="Sunday">Sunday</item>
+        <item name="Sunday">Monday</item>
+        <item name="Sunday">Tuesdayy</item>
+        <item name="Sunday">Wednesday</item>
+        <item name="Sunday">Thursday</item>
+        <item name="Sunday">Friday</item>
+        <item name="Sunday">Saturday</item>
+    </string-array>
+</resources>
